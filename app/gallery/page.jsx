@@ -26,7 +26,7 @@ import image16 from "@/public/galleryPage/image16.JPG";
 // Gallery data organized by sections
 const galleryData = [
   {
-    title: "GENESIS 4.0 HIGHLIGHTS",
+    title: "GENESIS 5.0 HIGHLIGHTS",
     subtitle: "Main event moments and celebrations",
     images: [
       { src: image1, size: "tall" },
@@ -249,32 +249,8 @@ const Page = () => {
           <div key={sectionIndex} className="relative mb-20">
             {/* Section Header */}
             <div className="relative mb-12 text-center">
-              {/* Corner Decorators */}
-              <div className="absolute left-1/2 top-0 flex -translate-x-1/2 transform gap-4">
-                <svg
-                  className="h-8 w-8 text-purple-400"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M2 2h4v4H2V2zm6 0h4v4H8V2zm6 0h4v4h-4V2z" />
-                </svg>
-                <svg
-                  className="h-8 w-8 text-blue-400"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M2 8h4v4H2V8zm6 0h4v4H8V8zm6 0h4v4h-4V8z" />
-                </svg>
-                <svg
-                  className="h-8 w-8 text-green-400"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M2 14h4v4H2v-4zm6 0h4v4H8v-4zm6 0h4v4h-4v-4z" />
-                </svg>
-              </div>
 
-              <h2 className="pt-12 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+              <h2 className="pt-4 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
                 {section.title}
               </h2>
               <p className="mt-4 text-lg text-white md:text-xl">

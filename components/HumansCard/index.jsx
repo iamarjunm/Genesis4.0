@@ -108,8 +108,8 @@ const HumansCard = ({
         }}
         viewport={{ once: true }}
       >
-        <div className="transform rounded-2xl border border-white/20 bg-white/10 p-6 text-center shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-white/30 hover:bg-white/15 hover:shadow-2xl w-[300px] h-[450px] flex flex-col mx-auto">
-          <div className="mb-4 h-[240px] w-full overflow-hidden rounded-2xl border border-white/10 bg-gray-800/50 backdrop-blur-sm flex-shrink-0">
+        <div className="transform rounded-2xl border border-white/15 bg-white/20 p-6 text-center shadow-lg backdrop-blur-lg transition-all duration-300 hover:scale-105 hover:border-white/25 hover:bg-white/25 hover:shadow-xl w-[300px] h-[450px] flex flex-col mx-auto">
+          <div className="mb-4 h-[240px] w-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm flex-shrink-0">
             <Image
               src={profilepic}
               alt={name}
@@ -120,11 +120,11 @@ const HumansCard = ({
           </div>
           <div className="flex-grow flex flex-col justify-between min-h-[130px]">
             <div className="flex-grow flex flex-col justify-center">
-              <h3 className="text-offwhite mb-2 text-xl font-extrabold tracking-tighter drop-shadow-lg line-clamp-2">
+              <h3 className="text-offwhite mb-2 text-xl font-extrabold tracking-wide drop-shadow-lg line-clamp-2">
                 {name}
               </h3>
               {role && (
-                <p className="mb-4 text-sm font-extrabold whitespace-pre-line text-gray-200 drop-shadow-md line-clamp-2">
+                <p className="mb-4 text-sm font-extrabold whitespace-pre-line text-gray-200 drop-shadow-md line-clamp-2 tracking-wide">
                   {role}
                 </p>
               )}
